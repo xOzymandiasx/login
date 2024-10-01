@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Primer tp login</string>
+    <string name="edit_text_hint_user">Ingrese su nombre</string>
+    <string name="edit_text_hint_password">Ingrese password</string>
+    <string name="edit_text_hint_title">Log in</string>
+    <string name="edit_text_hint_register">Registrarse</string>
+    <string name="edit_text_hint_sign_in">Iniciar</string>
+    <string name="edit_text_hint_register_title">Registro</string>
+    <string name="edit_text_hint_Log_Out">Cerrar sesión</string>
+    <string name="edit_text_hint_autoLogin">Mantener sesión iniciada</string>
+</resources>
