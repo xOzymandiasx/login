@@ -8,4 +8,5 @@
     <string name="edit_text_hint_register_title">Registro</string>
     <string name="edit_text_hint_Log_Out">Cerrar sesión</string>
     <string name="edit_text_hint_autoLogin">Mantener sesión iniciada</string>
+    <string name="select_genre">Selecciona tu género favorito de películas</string>
 </resources>
