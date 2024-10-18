@@ -37,7 +37,7 @@ class UserActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
     supportActionBar?.setHomeButtonEnabled(true)
     supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_menu)
-    supportActionBar?.title = "Bienvenido a nuestro sitio"
+    supportActionBar?.title = "Bienvenido a CineLoop"
 
     binding.navigationView.setNavigationItemSelectedListener(this, )
     }
