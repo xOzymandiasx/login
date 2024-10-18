@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraineStart_toStartOf="parent"/>
+        />
 
     <TextView
         android:id="@+id/textousuario"

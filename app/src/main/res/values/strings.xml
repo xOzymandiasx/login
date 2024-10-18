@@ -9,4 +9,6 @@
     <string name="edit_text_hint_Log_Out">Cerrar sesión</string>
     <string name="edit_text_hint_autoLogin">Mantener sesión iniciada</string>
     <string name="select_genre">Selecciona tu género favorito de películas</string>
+    <string name="nav_drawer_home_open">Open</string>
+    <string name="nav_drawer_home_close">Close</string>
 </resources>
