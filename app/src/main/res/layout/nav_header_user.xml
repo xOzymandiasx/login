@@ -11,7 +11,7 @@
         android:id="@+id/logo"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/logo_foreground"
+        android:src="@drawable/avatar"
         android:layout_margin="16dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp"
