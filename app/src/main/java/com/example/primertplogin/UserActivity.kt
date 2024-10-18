@@ -69,6 +69,15 @@ class UserActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
       R.id.nav_item_comedia -> {
         Toast.makeText(this, "Comedia", Toast.LENGTH_SHORT).show()
       }
+      R.id.nav_item_terr -> {
+        Toast.makeText(this, "Terror", Toast.LENGTH_SHORT).show()
+      }
+        R.id.nav_item_cerrar -> {
+          val preferences = getSharedPreferences(CREDENTIALS, MODE_PRIVATE)
+          preferences.edit().remove("autoLogin").apply()
+          goToLogin()
+          Toast.makeText(this, "Cerrar", Toast.LENGTH_SHORT).show()
+        }
     }
 
     drawerLayout.closeDrawer(GravityCompat.START)

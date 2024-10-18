@@ -11,4 +11,5 @@
     <string name="select_genre">Selecciona tu género favorito de películas</string>
     <string name="nav_drawer_home_open">Open</string>
     <string name="nav_drawer_home_close">Close</string>
+    <string name="Cerrar">Cerrar</string>
 </resources>
