@@ -34,15 +34,10 @@ class UserActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     val preferences = getSharedPreferences(CREDENTIALS, MODE_PRIVATE)
 
 
-
-//    binding.button.setOnClickListener {
-  //    preferences.edit().remove("autoLogin").apply()
-    //  goToLogin()
-      //}
-
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
     supportActionBar?.setHomeButtonEnabled(true)
     supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_menu)
+    supportActionBar?.title = "Bienvenido a nuestro sitio"
 
     binding.navigationView.setNavigationItemSelectedListener(this, )
     }
